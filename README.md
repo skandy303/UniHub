@@ -1,7 +1,5 @@
 # Project: UNIHUB
 
-**Live: [https://unihub-c09.me/](https://unihub-c09.me/)**
-
 ## Idea:
 
 An advanced all-in-one online marketplace platform, designed to facilitate the buying, selling, and trading of personal items among authenticated and authorized members of the community. The platform will handle everything from finding listings to contacting and messaging sellers to payouts for sellers through secured payments (without additional charges for either parties).
