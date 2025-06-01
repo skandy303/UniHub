@@ -1,0 +1,99 @@
+div {
+  /* border: 1px solid black;*/
+}
+
+.logo {
+  width: 70px;
+}
+
+#ChatWindow {
+  border: 1px solid #eee;
+  border-radius: 8px;
+  background: #fff;
+}
+
+.conversation-section {
+  border: none;
+  position: relative;
+  top: 4.25rem;
+}
+
+#SelectedConversation {
+  font-size: 1.5rem;
+  z-index: 3;
+  position: sticky;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  min-width: 60%;
+  width: 50vw;
+}
+
+#SelectedConversation input {
+  border-radius: 0;
+  margin: 0 1px 0 -1px;
+}
+
+#participants {
+  font-family: Monaco;
+  size: 12pt;
+}
+
+#send-button {
+  background-color: #002a5c;
+  border-color: rgb(217, 217, 217) rgb(217, 217, 217) currentcolor;
+  border-style: solid solid none;
+  border-width: 0 1px 0 0;
+  margin-right: -2px;
+  color: #fff;
+  cursor: pointer;
+  font-weight: 500;
+  font-size: 0.875rem;
+  line-height: 1.75;
+  letter-spacing: 0.02857em;
+  padding: 10px 20px;
+  transition: background-color 0.3s ease;
+}
+
+#send-button:hover {
+  background-color: #0072d9;
+}
+
+#participants,
+#messages {
+  margin-top: 1em;
+  margin-bottom: 1em;
+  margin-left: 0.5em;
+  margin-right: 0.5em;
+  height: 100%;
+}
+
+#OpenChannel {
+  display: flex;
+  flex-basis: 100%;
+  flex-direction: column;
+}
+
+.nav-pills .nav-item {
+  border: 1px solid #dddddd;
+  border-radius: 8px;
+  padding-left: 0.3em;
+  padding-right: 0.3em;
+}
+
+.conversations-window-wrapper .ant-layout-header {
+  white-space: nowrap;
+}
+
+.conversations-window-wrapper .ant-list-item {
+  cursor: pointer;
+}
+
+@media only screen and (max-width: 767px) {
+  #SelectedConversation {
+    width: 100%;
+  }
+  .conversations-window-wrapper .ant-layout-header {
+    width: 100% !important;
+  }
+}

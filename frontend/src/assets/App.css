@@ -1,0 +1,22 @@
+.App {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  width: 100%;
+}
+
+#homePage .MuiInputBase-root {
+  width: 90%;
+}
+
+#CategorySelect {
+  margin-top: auto;
+  margin-bottom: auto;
+  margin-left: 1em;
+  width: 80%;
+}
+
+#GraphSelectContainer {
+  display: flex;
+  flex-direction: row-reverse;
+}
